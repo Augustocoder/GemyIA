@@ -1,11 +1,16 @@
 <h1 align="center">GemyIA - Image analysis</h1>
 <p align="center"><img src="https://github.com/Augustocoder/GemyIA/assets/121616883/20327e39-c356-4662-bdd1-5893e04a0446" width="60%" alt="Logo Gemini"></p>
 
-## Precisa de Suporte?
-Entre em contato comigo, pelo email: suporte@augustodev.anonaddy.com, que irei responder assim que possível.
-
 ## Sobre GemyIA
 O GemyIA oferece uma ferramenta prática que utiliza como LLM, a API Gemini do Google, para analisar imagens a partir de URLs. Basta fornecer a URL da imagem e o sistema irá processá-la, retornando informações detalhadas sobre suas características visuais.
+
+## Contribuições:
+
+_Será bem-vindo ao contribuir com este projeto!_ <br>
+_Envie suas sugestões, relatórios de bugs e pull requests para aprimorar ainda mais o GemyIA._
+
+## Precisa de Suporte?
+_Entre em contato comigo, pelo email: suporte@augustodev.anonaddy.com, que irei responder assim que possível._
 
 ## Uma das Funcionalidades:
 * Análise de Conteúdo: Identifica e descreve os objetos, pessoas, cenas e textos.
