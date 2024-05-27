@@ -17,7 +17,7 @@ class gemyiaController extends Controller
         $inputImage = $request->input('url');
         $resultado = Gemini::geminiProVision()
             ->generateContent([
-                "Me fale o que têm nessa imagem, quero apenas as características?",
+                "Me fale o que têm nessa imagem, quero apenas as características que você consegue analisar na imagem:",
                 new Blob(
                     mimeType: MimeType::IMAGE_JPEG,
                     data: base64_encode(
@@ -30,7 +30,7 @@ class gemyiaController extends Controller
         return Redirect::back()->with('mensagem', $text)->with('url', $inputImage);
     }
     catch(\Throwable $e){
-            return Redirect::back()->with('mensagem', 'Erro ao processar a sua imagem, por favor, verifique a URL e tente novamente.');
+            return Redirect::back()->with('error', 'Erro ao processar a sua imagem, por favor, verifique a URL e tente novamente.');
         }
     }
 }
